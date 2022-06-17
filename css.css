@@ -1,0 +1,197 @@
+body {
+    background-color: whitesmoke;
+  }
+
+.nadpis {
+    background-color: #757575;
+    text-align: center;
+}
+
+.podnadpis {
+    background-color: #C4C4C4;
+    text-align: center;
+    margin-left: 7em;
+    margin-right: 7em;
+    align-items: center;
+}
+
+.podpodnadpis {
+    background-color: #C4C4C4;
+    margin-left: 7em;
+    margin-right: 7em;
+    text-align: center;
+    padding: 0.2em;
+}
+
+.aboutme {
+    background-color: #C4C4C4;
+    text-align: center;
+}
+
+.navigace {
+    background-color: #757575;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.foto {
+    object-fit: cover;
+    width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.popis {
+    background-color: #e1dfdf;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.nazev {
+    background-color: #e1dfdf;
+    text-align: center;
+    padding: 0.4em;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1px;
+}
+
+img {
+    height: 60vh;
+    object-fit: cover;
+}
+
+
+@media only screen and (min-width: 769px) {
+    body {
+        background-color: whitesmoke;
+      }
+    
+      .nadpis {
+        font-size: 60px;
+        padding: 0.3em;
+        margin-left: 2em;
+        margin-right: 2em;
+        margin-bottom: 0.5em;
+        margin-top: 0.5em;
+      }
+      .podnadpis {
+        font-size: 25px;
+        height: 30px;
+        padding: 0.5em;
+      }
+      
+      .podpodnadpis {
+        font-size: 25px;
+        height: 30px;
+      }
+    
+      .aboutme {
+          font-size: 20px;
+          padding: 1em;
+      }
+      
+      .navigace {
+          margin: -0.2em;
+          padding: 0.1em;
+          font-size: 25px;
+      }
+
+      .popis {
+          font-size: 20px;
+          margin-top: 0.5em;
+      }
+    
+      .nazev {
+          margin-left: 11em;
+          margin-right: 11em;
+          font-size: 22px;
+      }
+
+      .plsworktoo {
+        width: 49%;
+    }
+    
+    .fotogalerie {
+        width: 100%;
+    }
+
+    .foto {
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 75%;
+    }
+
+    .slideshow {
+        gap: 10px;
+    }
+
+}
+
+  @media only screen and (max-width: 768px) {
+
+    body {
+      background-color: whitesmoke;
+    }
+
+    .nadpis {
+        font-size: 15px;
+        padding: 0.5em;
+    }
+    .podnadpis {
+        font-size: 13px;
+        height: 15px;
+        padding: 0.5em;
+    }
+    
+    .podpodnadpis {
+        font-size: 10px;
+        height: 15px;
+    }
+
+    .aboutme {
+        font-size: 10px;
+        padding: 0.7em;
+    }
+    
+    .navigace {
+        margin: 0;
+        padding: 0.3em;
+        font-size: 8px;
+    }
+
+    .popis {
+        font-size: 10px;
+        margin-top: 1em;
+    }
+
+    .nazev {
+        margin-left: 13em;
+        margin-right: 13em;
+        font-size: 10px;
+    }
+
+    .plsworktoo {
+        width: 49%;
+    }
+    
+    .fotogalerie {
+        width: 100%;
+    }
+
+    .slideshow {
+        display:flex;
+        overflow-x:scroll;
+        gap: 10px;
+    }
+  }
